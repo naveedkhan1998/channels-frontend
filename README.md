@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Site
+
+Here is the link to the live site:
+Click ['https://naveedkhan1998.github.io/channels-frontend/'](https://naveedkhan1998.github.io/channels-frontend/) to visit live site
+
 ## Available Scripts
 
 In the project directory, you can run:
