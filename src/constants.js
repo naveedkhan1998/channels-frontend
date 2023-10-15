@@ -1,1 +1,1 @@
-export const webSocketUrl = 'wss://5h8ptm77-8000.use.devtunnels.ms/ws/chat/';
+export const webSocketUrl = 'wss://application-fc.18klajjho232.ca-tor.codeengine.appdomain.cloud/ws/chat/';
