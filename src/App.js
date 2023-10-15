@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
 import { TextField, Button, Typography, Container, Paper } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
-
+import { webSocketUrl } from "./constants";
 const styles = {
   container: {
     background: "#f0f0f0",
@@ -47,7 +47,8 @@ function App() {
   const chatLogRef = useRef(null); // Add a ref for the chat log container
   const chatTextAreaRef = useRef(null); // Add a ref for the textarea
   const roomName = "temp";
-  const wsUrl = `wss://5h8ptm77-8000.use.devtunnels.ms/ws/chat/${roomName}/`;
+  //const wsUrl = `wss://5h8ptm77-8000.use.devtunnels.ms/ws/chat/${roomName}/`;
+  const wsUrl = webSocketUrl+`${roomName}/`;
 
   useEffect(() => {
     const chatSocket = new WebSocket(wsUrl);
