@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/channels-frontend/static/css/main.1ef3a49a.css",
+    "main.js": "/channels-frontend/static/js/main.e5ea9faf.js",
+    "index.html": "/channels-frontend/index.html",
+    "main.1ef3a49a.css.map": "/channels-frontend/static/css/main.1ef3a49a.css.map",
+    "main.e5ea9faf.js.map": "/channels-frontend/static/js/main.e5ea9faf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ef3a49a.css",
+    "static/js/main.e5ea9faf.js"
+  ]
+}
